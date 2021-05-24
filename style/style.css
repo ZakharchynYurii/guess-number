@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, input{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    height: 100vh;
+    background: #ffcc00;
+}
+
+.title{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.lead{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.form-group{
+    display: flex;
+    padding: .5rem;
+}
+
+.field{
+    padding: .5rem .8rem;
+}
+
+.btn{
+    padding: .5rem .8rem;
+    background: transparent;
+    border-color: #ffe269;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.alert-msg{
+    font-family: 'Press Start 2P', cursive;
+    padding: 1rem;
+}
